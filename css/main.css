@@ -23,14 +23,77 @@ ul {
 section {
   padding: 50px 0; }
 
-.navbar .nav-item {
-  color: #263a41;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase; }
+.navbar {
+  z-index: 1; }
+  .navbar .nav-item {
+    color: #263a41;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .navbar .navbar-toggler {
+    border: 0;
+    padding: 4px, 30px; }
+    .navbar .navbar-toggler-icon {
+      background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255,129,126, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 8h24M4 16h24M4 24h24"/%3E%3C/svg%3E'); }
 
-.navbar .navbar-toggler {
-  border: 0;
-  padding: 4px, 30px; }
-  .navbar .navbar-toggler-icon {
-    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255,129,126, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 8h24M4 16h24M4 24h24"/%3E%3C/svg%3E'); }
+.banner {
+  background-image: url(../../images/banner/leaf.png);
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 12.5%;
+  padding: 8% 0;
+  position: relative; }
+  .banner__spa-image {
+    display: none; }
+  .banner__title {
+    color: #ff817e;
+    font-family: "Rufina";
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  .banner__heading {
+    color: #1e2528;
+    font-size: 49px;
+    line-height: 60px;
+    margin-top: 25px; }
+  .banner__desc {
+    color: #888;
+    margin-bottom: 50px;
+    margin-top: 17px; }
+  .banner__btn {
+    background-color: #ff817e;
+    border: 1px solid #ff817e;
+    border-radius: 50px;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .banner__btn:hover {
+      background-color: #fff;
+      border-color: #ff817e;
+      color: #ff817e;
+      text-decoration: none; }
+  .banner__video-btn {
+    color: #555;
+    margin-left: 11px; }
+    .banner__video-btn:hover {
+      color: #ff817e; }
+    .banner__video-btn__title-play {
+      color: #ff817e;
+      font-family: "Rufina";
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-size: 15px; }
+      .banner__video-btn__title-play:hover {
+        text-decoration: underline; }
+
+@media screen and (min-width: 768px) {
+  .banner__spa-image {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -103px;
+    width: 43.4%; } }
