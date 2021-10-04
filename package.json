@@ -1,0 +1,23 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "Original Project: https://github.com/mrkicrade/Leospa",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvicentijevic/Leospa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvicentijevic/Leospa/issues"
+  },
+  "homepage": "https://github.com/mvicentijevic/Leospa#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
