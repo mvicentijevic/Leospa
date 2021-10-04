@@ -9,7 +9,7 @@ body {
 a {
   text-decoration: none; }
   a:hover {
-    color: #ff817e; }
+    color: #ff817e !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rufina', serif;
@@ -22,3 +22,15 @@ ul {
 
 section {
   padding: 50px 0; }
+
+.navbar .nav-item {
+  color: #263a41;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.navbar .navbar-toggler {
+  border: 0;
+  padding: 4px, 30px; }
+  .navbar .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255,129,126, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 8h24M4 16h24M4 24h24"/%3E%3C/svg%3E'); }
