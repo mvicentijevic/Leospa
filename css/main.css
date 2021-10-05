@@ -310,3 +310,41 @@ section {
   .team__single-member:hover .team__single-member__member-info--member-social {
     visibility: visible;
     cursor: pointer; }
+
+.appointment {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff9f8; }
+  .appointment__img {
+    display: none; }
+  .appointment__appointment-form--input-field {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #d4d3d3;
+    color: #999;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%; }
+  .appointment__appointment-form__btn {
+    background-color: #ff817e;
+    border: 1px solid #ff817e;
+    border-radius: 50px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    margin: 0 auto;
+    font-weight: 600; }
+    .appointment__appointment-form__btn:hover {
+      background-color: #fff;
+      border-color: #ff817e;
+      color: #ff817e;
+      text-decoration: none; }
+
+@media screen and (min-width: 1200px) {
+  .appointment__img {
+    display: block; } }
