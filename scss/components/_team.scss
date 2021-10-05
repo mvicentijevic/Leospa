@@ -1,0 +1,75 @@
+.team {
+    &__section-heading {
+        margin-bottom: 70px;
+        &__sec-title {
+            color: $h-color;
+            font-weight: 800;
+            margin-bottom: 32px;
+        }
+        &__desc {
+            color: $p-color;
+            margin-bottom: 0;
+        }
+    }
+    &__single-member {
+        margin-bottom: 30px;
+        > img {
+            height: auto;
+            width: 100%;
+        }
+        &__member-info {
+            background-color: $bg-color;
+            box-shadow: 0 5px 20px $box-shadow-color;
+            padding-top: 15px;
+            h6 {
+                color: $link-color;
+                font-size: 22px;
+                margin-bottom: 0;
+            }
+            span {
+                display: block;
+                margin-bottom: 15px;
+            }
+            &--member-social {
+                padding-bottom: 15px;
+                visibility: hidden;
+                li {
+                    display: inline-block;
+                    
+                    &:not(:last-child) {
+                        margin-right: 10px;
+                    }
+                    a {
+                        background-size: cover;
+                        display: block;
+                        height: 40px;
+                        width: 40px;
+                        text-indent: -9999px;
+                        transition: .3s;
+                        &.fb {
+                            background-image: url('../images/social/facebook.png');
+                        }
+                        &.tw {
+                            background-image: url('../images/social/twitter.png');
+                        }
+                        &.yt {
+                            background-image: url('../images/social/youtube.png');
+                        }
+                        &.in {
+                            background-image: url('../images/social/instagram.png');
+                        }
+                        &:hover {
+                            opacity: .8;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            .team__single-member__member-info--member-social {
+                visibility: visible;
+                cursor: pointer;
+            }
+        }
+    }
+}

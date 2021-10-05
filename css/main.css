@@ -256,3 +256,57 @@ section {
     margin-bottom: 30px; }
     .testimonial .carousel-indicators .carousel-btn {
       background-color: #ff817e; }
+
+.team__section-heading {
+  margin-bottom: 70px; }
+  .team__section-heading__sec-title {
+    color: #1e2528;
+    font-weight: 800;
+    margin-bottom: 32px; }
+  .team__section-heading__desc {
+    color: #888;
+    margin-bottom: 0; }
+
+.team__single-member {
+  margin-bottom: 30px; }
+  .team__single-member > img {
+    height: auto;
+    width: 100%; }
+  .team__single-member__member-info {
+    background-color: #fff;
+    box-shadow: 0 5px 20px #f0f0f0;
+    padding-top: 15px; }
+    .team__single-member__member-info h6 {
+      color: #263a41;
+      font-size: 22px;
+      margin-bottom: 0; }
+    .team__single-member__member-info span {
+      display: block;
+      margin-bottom: 15px; }
+    .team__single-member__member-info--member-social {
+      padding-bottom: 15px;
+      visibility: hidden; }
+      .team__single-member__member-info--member-social li {
+        display: inline-block; }
+        .team__single-member__member-info--member-social li:not(:last-child) {
+          margin-right: 10px; }
+        .team__single-member__member-info--member-social li a {
+          background-size: cover;
+          display: block;
+          height: 40px;
+          width: 40px;
+          text-indent: -9999px;
+          transition: .3s; }
+          .team__single-member__member-info--member-social li a.fb {
+            background-image: url("../images/social/facebook.png"); }
+          .team__single-member__member-info--member-social li a.tw {
+            background-image: url("../images/social/twitter.png"); }
+          .team__single-member__member-info--member-social li a.yt {
+            background-image: url("../images/social/youtube.png"); }
+          .team__single-member__member-info--member-social li a.in {
+            background-image: url("../images/social/instagram.png"); }
+          .team__single-member__member-info--member-social li a:hover {
+            opacity: .8; }
+  .team__single-member:hover .team__single-member__member-info--member-social {
+    visibility: visible;
+    cursor: pointer; }
