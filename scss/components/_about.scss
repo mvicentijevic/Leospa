@@ -1,0 +1,51 @@
+.about {
+    position: relative;
+    &__img {
+        margin-bottom: 165px;
+        &__flower-rose {
+            position: absolute;
+            left: 16%;
+            min-width: 160px;
+        }
+    }
+    &__abt {
+        > img {
+            position: absolute;
+            top: 0;
+            left: 70%;
+        }
+        &__tagline {
+            color: $p-color;
+            display: block;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 0.8;
+            margin-bottom: 27px;
+            text-transform: uppercase;
+        }
+        &__sec-title {
+            color: $h-color;
+            font-size: 33px;
+            margin-bottom: 32px;
+        }
+        &__desc {
+            color: $p-color;
+            font-weight: 400;
+        }
+    }
+    &__read-more {
+        &__btn {
+            @include btn($btn-color, 1px solid $btn-color, 50px, 20px 15px, none, uppercase);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 0.8;
+            width: 170px;
+            &:hover {
+                background-color: $bg-color;
+                border-color: $btn-color;
+                color: $btn-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
