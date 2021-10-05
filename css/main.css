@@ -227,3 +227,32 @@ section {
   .procedures__sec-title {
     font-size: 42px;
     margin-bottom: 32px; } }
+
+.testimonial {
+  background-color: #fff9f8;
+  text-align: center; }
+  .testimonial .single-testimonial > img {
+    margin: 0 auto 45px; }
+  .testimonial .single-testimonial p {
+    color: #263a41;
+    font-family: 'Rufina', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 43px; }
+  .testimonial .single-testimonial .client-info > img {
+    border-radius: 50px;
+    height: 76px;
+    width: 76px;
+    margin-bottom: 22px; }
+  .testimonial .single-testimonial .client-info p {
+    font-size: 22px;
+    margin-bottom: 0; }
+    .testimonial .single-testimonial .client-info p span {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 400; }
+  .testimonial .carousel-indicators {
+    margin-bottom: 30px; }
+    .testimonial .carousel-indicators .carousel-btn {
+      background-color: #ff817e; }
