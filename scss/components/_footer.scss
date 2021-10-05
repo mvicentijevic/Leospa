@@ -1,0 +1,64 @@
+.main-footer {
+    background-color: $carousel-color;
+    margin-top: 50px;
+    padding: 80px 0 60px;
+    &__nav {
+        display: none;
+    }
+    &__social {
+        margin: 30px 0;
+        li {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+            a {
+                @include social(cover, block, 40px, 40px, -9999px, .3s);
+                &.fb {
+                    background-image: url('../images/social/facebook.png');
+                }
+                &.tw {
+                    background-image: url('../images/social/twitter.png');
+                }
+                &.yt {
+                    background-image: url('../images/social/youtube.png');
+                }
+                &.in {
+                    background-image: url('../images/social/instagram.png');
+                }
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+    &__copyright {
+        color: $p-color;
+        font-size: 13px;
+        margin-bottom: 0;
+        a {
+            color: $btn-color;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-footer__nav {
+        display: block;
+        margin-top: 30px;
+        li {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+            a {
+                color: $link-color;
+                display: block;
+                font-size: 14px;
+                font-weight: 600;
+                padding: 0 15px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

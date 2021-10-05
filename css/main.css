@@ -296,7 +296,7 @@ section {
           height: 40px;
           width: 40px;
           text-indent: -9999px;
-          transition: .3s; }
+          transition: 0.3s; }
           .team__single-member__member-info--member-social li a.fb {
             background-image: url("../images/social/facebook.png"); }
           .team__single-member__member-info--member-social li a.tw {
@@ -348,3 +348,55 @@ section {
 @media screen and (min-width: 1200px) {
   .appointment__img {
     display: block; } }
+
+.main-footer {
+  background-color: #fff9f8;
+  margin-top: 50px;
+  padding: 80px 0 60px; }
+  .main-footer__nav {
+    display: none; }
+  .main-footer__social {
+    margin: 30px 0; }
+    .main-footer__social li {
+      display: inline-block; }
+      .main-footer__social li:not(:last-child) {
+        margin-right: 10px; }
+      .main-footer__social li a {
+        background-size: cover;
+        display: block;
+        height: 40px;
+        width: 40px;
+        text-indent: -9999px;
+        transition: 0.3s; }
+        .main-footer__social li a.fb {
+          background-image: url("../images/social/facebook.png"); }
+        .main-footer__social li a.tw {
+          background-image: url("../images/social/twitter.png"); }
+        .main-footer__social li a.yt {
+          background-image: url("../images/social/youtube.png"); }
+        .main-footer__social li a.in {
+          background-image: url("../images/social/instagram.png"); }
+        .main-footer__social li a:hover {
+          opacity: .8; }
+  .main-footer__copyright {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 0; }
+    .main-footer__copyright a {
+      color: #ff817e; }
+
+@media screen and (min-width: 768px) {
+  .main-footer__nav {
+    display: block;
+    margin-top: 30px; }
+    .main-footer__nav li {
+      display: inline-block; }
+      .main-footer__nav li:not(:last-child) {
+        margin-right: 10px; }
+      .main-footer__nav li a {
+        color: #263a41;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0 15px;
+        text-transform: uppercase; } }

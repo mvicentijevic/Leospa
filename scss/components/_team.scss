@@ -40,12 +40,7 @@
                         margin-right: 10px;
                     }
                     a {
-                        background-size: cover;
-                        display: block;
-                        height: 40px;
-                        width: 40px;
-                        text-indent: -9999px;
-                        transition: .3s;
+                        @include social(cover, block, 40px, 40px, -9999px, .3s);
                         &.fb {
                             background-image: url('../images/social/facebook.png');
                         }

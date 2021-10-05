@@ -14,3 +14,11 @@
     text-decoration: $text-decoration;
     text-transform: $text-transform;
 }
+@mixin social($bg-size, $display, $height, $width, $text-indent, $transition) {
+    background-size: $bg-size;
+    display: $display;
+    height: $height;
+    width: $width;
+    text-indent: $text-indent;
+    transition: $transition;
+}
